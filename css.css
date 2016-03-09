@@ -1,0 +1,16 @@
+@-webkit-keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: -2336px 0; }
+}
+.main { 
+    width: 100%; 
+    height: 768px;
+    background-image: url("http://www.clker.com/cliparts/s/E/z/g/z/V/cloud-md.png");
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+
+    animation: animatedBackground 10s linear infinite;
+    -ms-animation: animatedBackground 10s linear infinite;
+    -moz-animation: animatedBackground 10s linear infinite;
+    -webkit-animation: animatedBackground 10s linear infinite;
+}
